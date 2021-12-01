@@ -25,7 +25,7 @@ For example, suppose you had the following report:
 240\
 269\
 260\
-263\
+263
 
 This report indicates that, scanning outward from the submarine, the sonar sweep found depths of 199, 200, 208, 210, and so on.
 
@@ -42,7 +42,7 @@ To do this, count the number of times a depth measurement increases from the pre
 240 (increased)\
 269 (increased)\
 260 (decreased)\
-263 (increased)\
+263 (increased)
 
 In this example, there are 7 measurements that are larger than the previous measurement.
 
@@ -63,7 +63,7 @@ Instead, consider sums of a three-measurement sliding window. Again considering 
 240  E F G  \
 269    F G H\
 260      G H\
-263        H\
+263        H
 
 Start by comparing the first and second three-measurement windows. The measurements in the first window are marked A (199, 200, 208); their sum is 199 + 200 + 208 = 607. The second window is marked B (200, 208, 210); its sum is 618. The sum of measurements in the second window is larger than the sum of the first, so this first comparison increased.
 
